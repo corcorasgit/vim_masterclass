@@ -168,3 +168,4 @@ set ruler
 | daw | delete (cut) word under the cursor and the space after or before it |
 | :3,5d | delete lines starting from 3 to 5 |
 | :reg | view all the clipboard registers |
+| :2p  | paste (put) register 2  in document |
