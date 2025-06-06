@@ -72,8 +72,9 @@ set ruler
 | Command | Action |
 | :---:  | :--- |
 | x  | delete character | 
-| dW  | delete Word |
-| dw  | delete Word |
+| X  | delete character before cursor |
+| dW  | delete Word ignores punctuation |
+| dw  | delete Word abides punctuation |
 | dd  | delete line |
 | d^  | begining line |
 | d$  | end of line |
