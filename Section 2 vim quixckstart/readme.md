@@ -13,13 +13,13 @@ set ruler
 
 ## Cursor Motion Keys
 
-| Navigation  | Description |  
-| :----------: | :--------- | 
-| ^  | begining of the line |  
-| 0  | begining of the line |
-| $  | end of the line  |
-| B  | Previous Word   |
-| b  | Previous Word   |
+| Navigation  | Description | | Navigation | Description | 
+| :----------: | :--------- | | :----: | :----- |
+| ^  | begining of the line | | 1  | bla bla |
+| 0  | begining of the line | | 2  | bla bla |
+| $  | end of the line  |     | 3  | bla bla |
+| B  | Previous Word   |      | 4  | bla bla |
+| b  | Previous Word   |      | 5 |  bla bla |
 |    |                 | 
 |    |                 |
 |    |                 | 
