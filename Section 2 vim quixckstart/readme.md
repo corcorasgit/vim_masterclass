@@ -26,10 +26,10 @@ set ruler
 | b  | Previous Word ignores , or .   |      
 | w  | moves to beging of word or , or .  | 
 | W  | moves to begining of word ignores punctuation |
-|    |                 | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
+| gg   | moves to top of document first line | 
+| Shift g |  moves to the bottomo of the document | 
+|  29gg  |  moves to line 29  |
+|  29g  |   moves to line 29  | 
 |    |                 | 
 |    |                 | 
 |    |                 | 
