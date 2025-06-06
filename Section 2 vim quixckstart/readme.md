@@ -75,10 +75,25 @@ set ruler
 | X  | delete character before cursor |
 | dW  | delete Word ignores punctuation |
 | dw  | delete Word abides punctuation |
+| 3dw | deletes next 3 words  [count]operation{motion}|
+| 2d3w | deletes the 3w three words motion 2 times |
 | dd  | delete line |
+|  . | after you have used dd if you press . it will repeat the last command |
+| dj  | delete line below cursor |
+| dl  | delete line above cursor |
 | d^  | begining line |
 | d$  | end of line |
+| D$  | delete to the end of the line |
 | (   | beginning of the sentence  |
 | )   | end of the sentence  |
 | {   | beginning of the paragraph |
 | }   | end of the paragraph  |
+
+
+## Saving a file
+
+| Command | Action |
+| :---:  | :--- |
+| :wq! | write and quit | 
+|  :w | write (like saving document) |
+| :q! | quit without saving |
