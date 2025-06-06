@@ -22,8 +22,8 @@ set ruler
 | ^  | begining of the line | 
 | 0  | begining of the line | 
 | $  | end of the line  |     
-| B  | Previous Word   |      
-| b  | Previous Word   |      
+| B  | Previous Word  or , or . |      
+| b  | Previous Word ignores , or .   |      
 | w  | moves to beging of word or , or .  | 
 | W  | moves to begining of word ignores punctuation |
 |    |                 | 
