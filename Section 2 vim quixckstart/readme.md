@@ -99,3 +99,14 @@ set ruler
 | :wq! | write and quit | 
 |  :w | write (like saving document) |
 | :q! | quit without saving |
+
+
+
+## Getting Help
+
+
+| Command | Action |
+| :---:  | :--- |
+| :help  | splits the screen into two panes | 
+| :q | quits help |
+| :help dd  | goes to the delete help section |
