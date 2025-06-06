@@ -65,3 +65,19 @@ set ruler
 | z - | Current line bottom of the screen  |
 | Ctrl - L |   |
 
+
+## Deleting Text
+
+
+| Command | Action |
+| :---:  | :--- |
+| x  | delete character | 
+| dW  | delete Word |
+| dw  | delete Word |
+| dd  | delete line |
+| d^  | begining line |
+| d$  | end of line |
+| (   | beginning of the sentence  |
+| )   | end of the sentence  |
+| {   | beginning of the paragraph |
+| }   | end of the paragraph  |
