@@ -10,6 +10,8 @@ set ruler
 
 ```
 
+[comprehensive vim cheat sheet](https://vim.rtorr.com/)
+
 
 ## Cursor Motion Keys
 
