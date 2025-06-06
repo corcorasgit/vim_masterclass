@@ -150,6 +150,7 @@ set ruler
 
 | Command | Action |
 | :---:  | :--- |
+| u  | undo |
 | yy | yank (copy) a line |
 | 2yy | yank (copy) 2 lines |
 | yw | yank (copy) the characters of the word from the cursor position to the start of the next word |
@@ -166,3 +167,4 @@ set ruler
 | diw | delete (cut) word under the cursor |
 | daw | delete (cut) word under the cursor and the space after or before it |
 | :3,5d | delete lines starting from 3 to 5 |
+| :reg | view all the clipboard registers |
