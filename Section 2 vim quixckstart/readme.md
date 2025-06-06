@@ -110,3 +110,4 @@ set ruler
 | :help  | splits the screen into two panes | 
 | :q | quits help |
 | :help dd  | goes to the delete help section |
+| ctrl - W | switch between help window and the editing window |
