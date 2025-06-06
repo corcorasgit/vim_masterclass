@@ -111,3 +111,5 @@ set ruler
 | :q | quits help |
 | :help dd  | goes to the delete help section |
 | ctrl - W | switch between help window and the editing window |
+| :h :q[then press ctl d] | gives you a form of command complete all options of :q (hit tab key scroll trhu options) |
+
