@@ -49,3 +49,19 @@ set ruler
 | O  | insert above cursor new line |
 | a  | append after the cursor |
 | A  | append at the end of the line |
+
+
+
+## Screen Navigation
+
+| Navigation | Description |
+| :---:| :--- |
+| Ctrl - B | Page Back  |
+| Ctrl - F | Page Forward  |
+| Ctrl - U | Scroll Up  |
+| Ctrl - D | Scroll Down  |
+| z Enter  | Current line top of the screen  |
+| z . | Current line middle of the screen  |
+| z - | Current line bottom of the screen  |
+| Ctrl - L |   |
+
