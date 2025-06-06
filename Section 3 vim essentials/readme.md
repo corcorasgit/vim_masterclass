@@ -10,10 +10,11 @@ Cntl-f is the same as the "page down" operation.
 
 To move backward in the file, use Ctrl-b. Hold down the control key and press "b".
 Ctrl-b is the same as the "page up" operation.
-
+```
 To move forward by word, use "w". To move forward by word using white space as the word boundaries, use "W".
 
 To move backward by word, use "b". To move backward by word using white space as the word boundaries, use "B".
+```
 
 The rest of this file is comprised of random sentences. This will give you a
 chance to practise. There is no need to study the contents of the remaining
