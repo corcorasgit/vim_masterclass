@@ -147,9 +147,9 @@ set ruler
 
 
 ## Cut and Paste
-
+```
 ### Cut-Copy-Paste  ==  delete-yank-put
-
+```
 | Command | Action |
 | :---:  | :--- |
 | u  | undo |
