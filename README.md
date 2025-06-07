@@ -42,7 +42,7 @@ set number
 set realtivenumber
 set ruler
 set hls 
-set incseach
+set incsearch
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
@@ -203,8 +203,11 @@ set incseach
 
 
 ## Substitutions and Transforming
-### 
-syntax here
+
+##### syntax:  
+### s/old/new
+### [range]s[ubstitute]/{pattern}/{string}/[flags] [count]
+
 
 | Command | Action |
 | :---:  | :--- |
@@ -217,10 +220,10 @@ syntax here
 | $${\color{green}:nohls}$$ | remove highlighting |
 | $${\color{green}:set \  hls}$$ | enables highlighting |
 | $${\color{green}:*}$$ | place cursor over what you want to search then repeat * will act the same as next |
-|  |  |
-|   |  |
-|  |  |
-|   |  |
+| $${\color{green}:33,42s/net/org/g}$$ | substitutes lines 33 thru 43 replaces net with org |
+| $${\color{green}:\%s/net/org/g}$$ | % represents the whole document -  replaces net with org |
+| $${\color{green}:1,\$s/net/org/g}$$ | 1,$ == represents the whole document -  replaces net with org |
+| $${\color{green}:/Global/,/Local/s/net/org/g}$$ | pattern looks for Global and Local -  replaces net with org |
 |  |  |
 |   |  |
 |  |  |
