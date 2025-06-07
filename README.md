@@ -156,11 +156,13 @@ set ruler
 | yy | yank (copy) a line |
 | 2yy | yank (copy) 2 lines |
 | yw | yank (copy) the characters of the word from the cursor position to the start of the next word |
-| yiw | yank (copy) word under the cursor |
+| 2yw | yank (copy) two words |
+| yiw | yank (copy then insert) word under the cursor |
 | yaw | yank (copy) word under the cursor and the space after or before it |
 | y$ or Y | yank (copy) to end of line |
 | p | put (paste) the clipboard after cursor |
 | P | put (paste) before cursor |
+| "1p | puts (paste) the contents of clipboard 1 |
 | gp | put (paste) the clipboard after cursor and leave cursor after the new text |
 | gP | put (paste) before cursor and leave cursor after the new text |
 | dd | delete (cut) a line |
@@ -168,6 +170,11 @@ set ruler
 | dw | delete (cut) the characters of the word from the cursor position to the start of the next word |
 | diw | delete (cut) word under the cursor |
 | daw | delete (cut) word under the cursor and the space after or before it |
+| d$  | start at cursoer and delete to the end of the line |
 | :3,5d | delete lines starting from 3 to 5 |
 | :reg | view all the clipboard registers |
+| :reg z | views the z register |
+| 5"zp | pastes register z 5 times "[count][register]operator or [register][count]operator" |
+| "ayy | yanks (copies) line into register "a" |
 | :2p  | paste (put) register 2  in document |
+| xp   | will swap character think if becomes fi (when cursor on i) |
