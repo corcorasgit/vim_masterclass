@@ -1,11 +1,27 @@
-Cut this line and paste it after the line of hyphens.
 This is just some random text.
---------------------------------------------------------------------------------
+
+Every good boy deserves fudge.
+-------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+Cut this line and paste it after the line of hyphens.
 
 This line should come after "The quick brown fox jumps over the lazy dog."
 The quick brown fox jumps over the lazy dog.
 
-One does not simply walk into the data center.
 
 Every good boy deserves fudge.
 
@@ -13,17 +29,24 @@ Its gates are guarded by more than just computer operators.
 
 There are system administrators there that do not sleep.
 
-fi
 
-badcfe
 
-to the beginning. Move this
 
-Can you dupe this?
+This training is being provided by LinuxTrainingAcademy.com.
 
-Can you double dupe this?
+if
 
-Can you double dupe this, again?
+Every good boy deserves fudge.
+Every good boy deserves fudge.
+abcdef
+
+to the beginning.
+
+Move this Can you dupe this?
+
+Can you double dupe dupe this?
+
+Can you double dupe double dupe this, again?
 
 Duplicate this entire line.
 
