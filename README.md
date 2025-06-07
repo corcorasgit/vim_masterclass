@@ -174,7 +174,36 @@ set ruler
 | :3,5d | delete lines starting from 3 to 5 |
 | :reg | view all the clipboard registers |
 | :reg z | views the z register |
+| "Jyy| appends line to "J" register |
 | 5"zp | pastes register z 5 times "[count][register]operator or [register][count]operator" |
 | "ayy | yanks (copies) line into register "a" |
 | :2p  | paste (put) register 2  in document |
 | xp   | will swap character think if becomes fi (when cursor on i) |
+
+
+## Substitutions and Transforming
+### 
+syntax here
+
+| Command | Action |
+| :---:  | :--- |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
+|   |  |
+|  |  |
