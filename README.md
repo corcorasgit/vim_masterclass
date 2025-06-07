@@ -41,7 +41,8 @@ set syntax
 set number
 set realtivenumber
 set ruler
-
+set hls 
+set incseach
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
@@ -207,14 +208,15 @@ syntax here
 
 | Command | Action |
 | :---:  | :--- |
-| $${\color{green}fb}$$| finds the first occurance of the character "b" |
-| $${\color{green}fA}$$| finds the first occurance of the character "A", notice its case sensitive |
-| $${\color{green}Fb}$$| finds (looking backwards) next occurance of "b" |
-| $${\color{green}Fb}$$| ; finds  next occurance of "b" on the line of text |
-| $${\color{green}Fb}$$| , finds  previous occurance of "b" on the line of text |
-| \and| , finds  and in the body of the document n for next N to find previous |
-|  |  |
-|   |  |
+| $${\color{green}fb}$$ | finds the first occurance of the character "b" |
+| $${\color{green}fA}$$ | finds the first occurance of the character "A", notice its case sensitive |
+| $${\color{green}Fb}$$ | finds (looking backwards) next occurance of "b" |
+| $${\color{green}Fb}$$ | ; finds  next occurance of "b" on the line of text |
+| $${\color{green}Fb}$$ | , finds  previous occurance of "b" on the line of text |
+| \and | , finds  and in the body of the document n for next N to find previous |
+| $${\color{green}:nohls}$$ | remove highlighting |
+| $${\color{green}:set \  hls}$$ | enables highlighting |
+| $${\color{green}:*}$$ | place cursor over what you want to search then repeat * will act the same as next |
 |  |  |
 |   |  |
 |  |  |
