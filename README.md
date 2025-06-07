@@ -88,10 +88,10 @@ set incsearch
 | $${\color{green}c\$}$$ | change from the cursor to the end of the line |
 | $${\color{green}C}$$ | change from the cursor to the end of the line |
 | $${\color{green}cc}$$ | change the whole line - places in insert mode |
-| $${\color{green}~~}$$ | changes the case of a character |
-| $${\color{green}g~W}$$| changes the case of the whole word |
-| $${\color{green}g~~}$$ | changes the case of the whole word |
-| $${\color{green}g~\$}$$ | changes the case of the whole word |
+| ~~ | changes the case of a character |
+| g~W| changes the case of the whole word |
+| g~~ | changes the case of the whole word |
+| g~w | changes the case of the whole word |
 | $${\color{green}gUW}$$ | changes all characters to uppercase regardless |
 | $${\color{green}gUU}$$ | changes the whole line to uppercase |
 | $${\color{green}guu}$$ | changes the whole line to lowercase |
