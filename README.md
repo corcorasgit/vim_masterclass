@@ -55,6 +55,7 @@ set incsearch
 | h  | move cursor right |
 | l  | move cursor left |
 | j  | move cursor down |
+| 2j | move 2 line down |
 | k  | move cursor up |
 | ^  | begining of the line | 
 | 0  | begining of the line | 
@@ -66,14 +67,7 @@ set incsearch
 | gg   | moves to top of document first line | 
 | Shift g |  moves to the bottomo of the document | 
 |  29gg  |  moves to line 29  |
-|  29g  |   moves to line 29  | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
-|    |                 | 
+|  29g  |   moves to line 29  |
 
 
 ## Entering Text
@@ -231,3 +225,12 @@ set incsearch
 | T{char} | Reverse till search |
 | ; | Repeat in the same direction |
 | , | Repeat in the opposite direction |
+| /{pattern} | Foward search |
+| ?{pattern} | Reverse search |
+| n | Repeat search in the same direction |
+| N | Repeat search in the opposite direction |
+| * | Forward search for word |
+| # | Reverse search for word |
+| search format | :[range]s/{pattern}/{string}/{string}/flags |
+| global sub | :%s/{pattern}/{string}/{string}/g
+
