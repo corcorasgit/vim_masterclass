@@ -81,10 +81,30 @@ set ruler
 | :---:  | :--- |
 | i  | insert at the cursor |
 | I  | insert at the beginning of the line |
+| 80i then * then esc | inserts a line of ****** |
 | o  | insert below cursor new line |
+ 5o then # then esc | inserts 5 rows of # |
+| 5o then 10.1.1 then esc | creates 5 network ip addresses |
 | O  | insert above cursor new line |
 | a  | append after the cursor |
 | A  | append at the end of the line |
+| r | cursor over the character then its replaced |
+| $${\color{green}cw}$$ | change the word- deletes the word and places you in insert mode |
+| $${\color{green}c\$}$$ | change from the cursor to the end of the line |
+| $${\color{green}C}$$ | change from the cursor to the end of the line |
+| $${\color{green}cc}$$ | change the whole line - places in insert mode |
+| $${\color{green}~~}$$ | changes the case of a character |
+| $${\color{green}g~W}$$| changes the case of the whole word |
+| $${\color{green}g~~}$$ | changes the case of the whole word |
+| $${\color{green}g~\$}$$ | changes the case of the whole word |
+| $${\color{green}gUW}$$ | changes all characters to uppercase regardless |
+| $${\color{green}gUU}$$ | changes the whole line to uppercase |
+| $${\color{green}guu}$$ | changes the whole line to lowercase |
+| $${\color{green}J}$$ | joins current line to the bottom line and adds a space |
+| $${\color{green}5J}$$ | joins current line to the 5 bottom line and adds a space |
+| $${\color{green}gJ}$$ | joins current line to the bottom line no spaces |
+
+
 
 
 
@@ -187,7 +207,12 @@ syntax here
 
 | Command | Action |
 | :---:  | :--- |
-|   |  |
+| $${\color{green}fb}$$| finds the first occurance of the character "b" |
+| $${\color{green}fA}$$| finds the first occurance of the character "A", notice its case sensitive |
+| $${\color{green}Fb}$$| finds (looking backwards) next occurance of "b" |
+| $${\color{green}Fb}$$| ; finds  next occurance of "b" on the line of text |
+| $${\color{green}Fb}$$| , finds  previous occurance of "b" on the line of text |
+| \and| , finds  and in the body of the document n for next N to find previous |
 |  |  |
 |   |  |
 |  |  |
