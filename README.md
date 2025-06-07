@@ -224,4 +224,10 @@ set incsearch
 | $${\color{green}:\%s/net/org/g}$$ | % represents the whole document -  replaces net with org |
 | $${\color{green}:1,\$s/net/org/g}$$ | 1,$ == represents the whole document -  replaces net with org |
 | $${\color{green}:/Global/,/Local/s/net/org/g}$$ | pattern looks for Global and Local -  replaces net with org |
-
+| | Summary - Same Line Searching |
+| f{char} | Forward search |
+| F{char} | Reverse search |
+| t{char} | Forward till search |
+| T{char} | Reverse till search |
+| ; | Repeat in the same direction |
+| , | Repeat in the opposite direction |
