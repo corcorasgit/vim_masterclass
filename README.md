@@ -236,6 +236,30 @@ set incsearch
 
 ## Text Objects
 
+##### syntax:  
+### {operator} {a} {object}
+### {operator} {i} {objecct}
+
+#### capital charcter    : only uses spaces as word boundaries
+#### lower case character: uses punctuation as word boundaries
+##### a deletes word boundaries 
+##### i does not delete word boundaries
+
 | Command | Action |
 | :---:  | :--- |
-|   |   |
+| daw | Delete a word |
+| ciw | change inner word |
+| das | delete a sentence  |
+| dis | delete inner sentance |
+| dap |  paragraph      |
+| dip |  paragraph      |
+| ci[ |  deletes items between [ ] and places in insert mode  |
+| ca[ |  deletes items including [ ] and places in insert mode |
+| yi< |  yanks the html tag between the < > places in insert mode |
+| ya< |  yanks the entire html tag <html> places in insert mode |
+| cit |  change contents between the tags keeping the tags in place |
+| cat | removes the whole tag incuding <p> |
+|  |   |
+|  |   |
+|  |   |
+|  |   |
