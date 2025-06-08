@@ -264,3 +264,21 @@ set incsearch
 | ci" | changes the string between " "  |
 | ca" | changes the string incuding ""  |
 | :reg | you have the items stored with you tags < [ { > |
+
+
+## Macros
+
+### best practices
+#### normalize the cursor position (type 0 for begging of the line)
+#### perform edits and operations
+#### position you cursor to enable easy replays (cariage return j)
+
+| Command | Action |
+| :---:  | :--- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
