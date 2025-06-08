@@ -84,20 +84,20 @@ set incsearch
 | a  | append after the cursor |
 | A  | append at the end of the line |
 | r | cursor over the character then its replaced |
-| $${\color{green}cw}$$ | change the word- deletes the word and places you in insert mode |
-| $${\color{green}c\$}$$ | change from the cursor to the end of the line |
-| $${\color{green}C}$$ | change from the cursor to the end of the line |
-| $${\color{green}cc}$$ | change the whole line - places in insert mode |
+| cw | change the word- deletes the word and places you in insert mode |
+| c\$ | change from the cursor to the end of the line |
+| C | change from the cursor to the end of the line |
+| cc | change the whole line - places in insert mode |
 | ~~ | changes the case of a character |
 | g~W| changes the case of the whole word |
 | g~~ | changes the case of the whole word |
 | g~w | changes the case of the whole word |
-| $${\color{green}gUW}$$ | changes all characters to uppercase regardless |
-| $${\color{green}gUU}$$ | changes the whole line to uppercase |
-| $${\color{green}guu}$$ | changes the whole line to lowercase |
-| $${\color{green}J}$$ | joins current line to the bottom line and adds a space |
-| $${\color{green}5J}$$ | joins current line to the 5 bottom line and adds a space |
-| $${\color{green}gJ}$$ | joins current line to the bottom line no spaces |
+| gUW | changes all characters to uppercase regardless |
+| gUU | changes the whole line to uppercase |
+| guu | changes the whole line to lowercase |
+| J | joins current line to the bottom line and adds a space |
+| 5J | joins current line to the 5 bottom line and adds a space |
+| gJ | joins current line to the bottom line no spaces |
 
 
 
@@ -205,19 +205,19 @@ set incsearch
 
 | Command | Action |
 | :---:  | :--- |
-| $${\color{green}fb}$$ | finds the first occurance of the character "b" |
-| $${\color{green}fA}$$ | finds the first occurance of the character "A", notice its case sensitive |
-| $${\color{green}Fb}$$ | finds (looking backwards) next occurance of "b" |
-| $${\color{green}Fb}$$ | ; finds  next occurance of "b" on the line of text |
-| $${\color{green}Fb}$$ | , finds  previous occurance of "b" on the line of text |
+| fb | finds the first occurance of the character "b" |
+| fA | finds the first occurance of the character "A", notice its case sensitive |
+| Fb | finds (looking backwards) next occurance of "b" |
+| Fb | ; finds  next occurance of "b" on the line of text |
+| Fb | , finds  previous occurance of "b" on the line of text |
 | \and | , finds  and in the body of the document n for next N to find previous |
-| $${\color{green}:nohls}$$ | remove highlighting |
-| $${\color{green}:set \  hls}$$ | enables highlighting |
-| $${\color{green}:*}$$ | place cursor over what you want to search then repeat * will act the same as next |
-| $${\color{green}:33,42s/net/org/g}$$ | substitutes lines 33 thru 43 replaces net with org |
-| $${\color{green}:\%s/net/org/g}$$ | % represents the whole document -  replaces net with org |
-| $${\color{green}:1,\$s/net/org/g}$$ | 1,$ == represents the whole document -  replaces net with org |
-| $${\color{green}:/Global/,/Local/s/net/org/g}$$ | pattern looks for Global and Local -  replaces net with org |
+| :nohls | remove highlighting |
+| :set \  hls | enables highlighting |
+| :* | place cursor over what you want to search then repeat * will act the same as next |
+| :33,42s/net/org/g | substitutes lines 33 thru 43 replaces net with org |
+| :\%s/net/org/g | % represents the whole document -  replaces net with org |
+| :1,\$s/net/org/g | 1,$ == represents the whole document -  replaces net with org |
+| :/Global/,/Local/s/net/org/g | pattern looks for Global and Local -  replaces net with org |
 | | Summary - Same Line Searching |
 | f{char} | Forward search |
 | F{char} | Reverse search |
