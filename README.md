@@ -259,7 +259,8 @@ set incsearch
 | ya< |  yanks the entire html tag <html> places in insert mode |
 | cit |  change contents between the tags keeping the tags in place |
 | cat | removes the whole tag incuding <p> |
-|  |   |
-|  |   |
-|  |   |
-|  |   |
+| ci{ | changes the code between { }  |
+| ca{ | changes the block (deletes everything including {})  |
+| ci" | changes the string between " "  |
+| ca" | changes the string incuding ""  |
+| :reg | you have the items stored with you tags < [ { > |
