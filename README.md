@@ -234,3 +234,8 @@ set incsearch
 | search format | :[range]s/{pattern}/{string}/{string}/flags |
 | global sub | :%s/{pattern}/{string}/{string}/g
 
+## Text Objects
+
+| Command | Action |
+| :---:  | :--- |
+|   |   |
