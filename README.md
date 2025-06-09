@@ -1,8 +1,13 @@
-# VIM_Masterclass
+<span style="color:red">
+<h2> VIM_Masterclass</h2>
+</span>
 VM Masterclass course on Undemy
 
 ## notes on GIT
 ### setting up ssh keys
+
+Text content
+
 
 1. Generate SSH key on your local computer
 ```
@@ -18,7 +23,7 @@ ssh-add ~/.ssh/id_ed25519
 cat ~/.ssh/id_ed25519.pub
 
 shaun@x1:~/study/vim_masterclass$ cat ~/.ssh/id_ed25519.pub
-ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJhTIBt2zCmS/L8GQaNlpdlx12STrY2pWkGX+YFxU7J+ corcoras.git@protonmail.com
+ssh-ed25519 AAAAC3NzacorcoranAAAAIJhTIBtshaunGQaNlpdlx12STrY2pWkGX+YFxU7J+ corcoras.git@protonmail.com
 shaun@x1:~/study/vim_masterclass$
 
 Go to GitHub → Settings → SSH and GPG keys → New SSH key → Paste it there.
@@ -32,7 +37,10 @@ git remote set-url origin git@github.com:$GH_USERNAME/vim_masterclass.git
 ```
 Now git push will work without asking for a username/password.
 
-## setup vim
+<span style="color:red">
+<h2>setup vim</h2>
+</span>
+
 ```
 edit the following file 
 sudo vim /etc/vim/vimrc
@@ -48,8 +56,9 @@ set shiftwidth=4
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
 
-
-## Cursor Motion Keys
+<span style="color:red">
+<h2> VIM_Cursor Motion Keys</h2>
+</span>
 
 | Navigation  | Description |  
 | :----------: | :--------- | 
@@ -70,8 +79,9 @@ set shiftwidth=4
 |  29gg  |  moves to line 29  |
 |  29g  |   moves to line 29  |
 
-
-## Entering Text
+<span style="color:red">
+<h2>Entering Text</h2>
+</span>
 
 | Command | Action |
 | :---:  | :--- |
@@ -235,3 +245,17 @@ set shiftwidth=4
 | search format | :[range]s/{pattern}/{string}/{string}/flags |
 | global sub | :%s/{pattern}/{string}/{string}/g
 
+## Visual Mode
+
+
+| Command | Action |
+| :---:  | :--- |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
