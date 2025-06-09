@@ -252,12 +252,21 @@ set shiftwidth=4
 
 | Command | Action |
 | :---:  | :--- |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| v | Characterwise |
+| V | Linewise |
+| cntl-V | Blockwise |
+| ~ | switch case |
+| c | change |
+| d | delete |
+| y | yank |
+| r | replace |
+| I | insert |
+| A | append |
+| u | make lowercase |
+| U | make uppercase |
+| > | shift right |
+| < | shift left |
+| substitue |  |
+| center |  |
+| right |  |
+| left |  |
