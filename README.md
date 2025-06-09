@@ -43,6 +43,7 @@ set realtivenumber
 set ruler
 set hls 
 set incsearch
+set shiftwidth=4
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
