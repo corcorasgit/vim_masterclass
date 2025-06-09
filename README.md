@@ -247,8 +247,9 @@ set shiftwidth=4
 | search format | :[range]s/{pattern}/{string}/{string}/flags |
 | global sub | :%s/{pattern}/{string}/{string}/g
 
-## Visual Mode
-
+<span style="color:red">
+<h2>Visual Mode</h2>
+</span>
 
 | Command | Action |
 | :---:  | :--- |
