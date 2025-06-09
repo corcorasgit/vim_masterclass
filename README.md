@@ -54,6 +54,7 @@ set incsearch
 set shiftwidth=4
 set tabstop=4
 set expandtab
+set history=1000
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
