@@ -52,6 +52,8 @@ set ruler
 set hls 
 set incsearch
 set shiftwidth=4
+set tabstop=4
+set expandtab
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
