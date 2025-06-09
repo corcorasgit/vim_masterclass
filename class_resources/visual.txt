@@ -56,17 +56,17 @@ john.telephone = "(555) 612-2000"
 john.title = "Developer"
 
 function make_slave_device_file () {
-# Pass in slave device, slave device file, bond device.
-local S_DEVICE=$1
-local S_FILE=$2
-local BOND_D=$3
-echo "DEVICE=${S_DEVICE}" > $S_FILE
-echo "BOOTPROTO=none" >> $S_FILE
-echo "ONBOOT=yes" >> $S_FILE
-echo "MASTER=${BOND_D}" >> $S_FILE
-echo "SLAVE=yes" >> $S_FILE
-echo "USERCTL=no" >> $S_FILE
-echo "NM_CONTROLLED=no" >> $S_FILE
+    # Pass in slave device, slave device file, bond device.
+    local S_DEVICE=$1
+    local S_FILE=$2
+    local BOND_D=$3
+    echo "DEVICE=${S_DEVICE}" > $S_FILE
+    echo "BOOTPROTO=none" >> $S_FILE
+    echo "ONBOOT=yes" >> $S_FILE
+    echo "MASTER=${BOND_D}" >> $S_FILE
+    echo "SLAVE=yes" >> $S_FILE
+    echo "USERCTL=no" >> $S_FILE
+    echo "NM_CONTROLLED=no" >> $S_FILE
 }
 
 START:United States of America State Capital List
