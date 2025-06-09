@@ -55,6 +55,14 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 set history=1000
+set showcmd
+set wildmenu
+set scrolloff=5
+set backup
+set ai
+set smartindent
+set bg=dark
+
 ```
 
 [comprehensive vim cheat sheet](https://vim.rtorr.com/)
@@ -274,3 +282,21 @@ set history=1000
 | center |  |
 | right |  |
 | left |  |
+
+
+
+
+<span style="color:red">
+<h2>vim Settings</h2>
+</span>
+
+| Command | Action |
+| :---:  | :--- |
+| v:e /etc/vim/vimrc | Edits your vimrc file in vim |
+| cntl G  | displays the path to file your editing  |
+| :h option-list | displays all available vim options  |
+| :h zip(then tab) |  get command options for zip in status bar on bottom |
+|   |   |
+|   |   |
+|   |   |
+
