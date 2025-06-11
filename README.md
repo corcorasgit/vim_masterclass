@@ -306,4 +306,14 @@ set bg=dark
 
 | Command | Action |
 | :---:  | :--- |
-| |  |
+| :e| :edit |
+| :ls    | :buffers  |
+| :b   | :buffer    |
+| :bn   | :bnext     |
+| :bp   | :bprevious    |
+| :bl    | :blast               |
+| :bf    | :bfirst              |
+|   :badd    |                |
+|  :bd     |  :bdelete              |
+|  :bufdo     |                |
+|  set hidden     |                |
