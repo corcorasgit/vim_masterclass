@@ -300,3 +300,10 @@ set bg=dark
 |   |   |
 |   |   |
 
+<span style="color:red">
+<h2>buffers and windows</h2>
+</span>
+
+| Command | Action |
+| :---:  | :--- |
+| |  |
