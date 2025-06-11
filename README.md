@@ -306,9 +306,15 @@ set bg=dark
 
 | Command | Action |
 | :---:  | :--- |
-| :e| :edit |
-| :ls    | :buffers  |
-| :b   | :buffer    |
+| vim buf-ant.txt buf-dad.txt | open multiple files at once |
+| vim -o buf* | open windows horizontally |
+| vim buf* | open multiple files at once |
+| :buffers | displays the buffers |
+| :ls | same as :buffers |
+| :b6 | moves to file in buffer 6 |
+| :b buf-ant.txt | opens that file |
+| :b <tab> | you can scroll thru files |
+| :e | :edit |
 | :bn   | :bnext     |
 | :bp   | :bprevious    |
 | :bl    | :blast               |
@@ -316,4 +322,14 @@ set bg=dark
 |   :badd    |                |
 |  :bd     |  :bdelete              |
 |  :bufdo     |                |
-|  set hidden     |                |
+|  set hidden     |   allow navigating between buffers without messages "not saved |
+| %a | active buffer |
+| #  | alternate buffer |
+| :qall! | abandons all changes in all buffers |
+| : wall      | saves all buffers   |
+| :badd modes.txt | loads file to the buffer magazine |
+| :bd | unloads the current file from the buffer |
+| :1,3bd | unloads buffers 1 thru 3 |
+| :%bd | unloads all the buffers |
+| 
+
