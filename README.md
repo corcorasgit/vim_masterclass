@@ -62,6 +62,7 @@ set backup
 set ai
 set smartindent
 set bg=dark
+set hidden
 
 ```
 
@@ -312,16 +313,18 @@ set bg=dark
 | :buffers | displays the buffers |
 | :files | displays the buffers |
 | :ls | same as :buffers |
+| ctrl ^ | goto last buffer |
 | :b6 | moves to file in buffer 6 |
 | :b buf-ant.txt | opens that file |
 | :b <tab> | you can scroll thru files |
-| :e | :edit |
+| :e nav.txt| :edit file nav.txt |
 | :bn   | :bnext     |
 | :bp   | :bprevious    |
 | :bl    | :blast               |
 | :bf    | :bfirst              |
 | :badd    |                |
 | :bd     |  :bdelete              |
+| :bd3    |  delete buffer 3     |
 | :bufdo     |                |
 | set hidden     |   allow navigating between buffers without messages "not saved |
 | %a | active buffer |
