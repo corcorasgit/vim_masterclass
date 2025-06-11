@@ -310,6 +310,7 @@ set bg=dark
 | vim -o buf* | open windows horizontally |
 | vim buf* | open multiple files at once |
 | :buffers | displays the buffers |
+| :files | displays the buffers |
 | :ls | same as :buffers |
 | :b6 | moves to file in buffer 6 |
 | :b buf-ant.txt | opens that file |
