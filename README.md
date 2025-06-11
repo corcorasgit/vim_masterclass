@@ -319,11 +319,12 @@ set bg=dark
 | :bp   | :bprevious    |
 | :bl    | :blast               |
 | :bf    | :bfirst              |
-|   :badd    |                |
-|  :bd     |  :bdelete              |
-|  :bufdo     |                |
-|  set hidden     |   allow navigating between buffers without messages "not saved |
+| :badd    |                |
+| :bd     |  :bdelete              |
+| :bufdo     |                |
+| set hidden     |   allow navigating between buffers without messages "not saved |
 | %a | active buffer |
+| h  | hidden file (no error messages) vimrc - set hidden|
 | #  | alternate buffer |
 | :qall! | abandons all changes in all buffers |
 | : wall      | saves all buffers   |
@@ -331,5 +332,7 @@ set bg=dark
 | :bd | unloads the current file from the buffer |
 | :1,3bd | unloads buffers 1 thru 3 |
 | :%bd | unloads all the buffers |
-| 
+| :bufdo set number | sets the numbers up in vim on all of the instances |
+| :bufdo %s/#/@/g \| w |find/replace all # with @ on all windows, writes before running |
+| :E  | file explorer  |
 
